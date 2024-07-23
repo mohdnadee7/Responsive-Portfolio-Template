@@ -1,0 +1,188 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #212121;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-nav{
+  margin:0px auto;
+}
+.custom-nav-link{
+  margin :0px 8px;
+  color :#fff;
+}
+.custom-nav-link:hover{
+  color: #f8b90a !important;
+}
+
+.navbar .navbar-nav .nav-link.custom-nav-link {
+  position: relative;
+  color: #f8b90a;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link.custom-nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #f8b90a;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link.custom-nav-link:hover::after {
+  width: 100%;
+  left: 0;
+  background: #f8b90a;
+}
+
+.carousel-hire-btn {
+  left: 5%;
+  background-color:#f8b90a; 
+  color: #000;
+}
+.carousel-work-btn{
+  left: 15%;
+  color: #fff;
+  border: 1px solid gray;
+}
+.carousel-hire-btn,.carousel-work-btn{
+  position: absolute;
+  bottom: 90px; 
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 40px;
+  z-index: 10;
+  font-size: 12px; 
+}
+
+.about-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+}
+
+.about-table th, .about-table td {
+  padding: 10px 0px;
+}
+.about-table td{
+  color:silver;
+  font-size: 17px;
+}
+.download-dv-btn{
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 12px;
+  background-color:#f8b90a; 
+  color: #000;
+}
+
+@media screen and (min-width: 720px) {
+  .about-profile{
+    display: none;
+  }
+}
+
+.resume-heading{
+  text-align: center;
+  font-size:50px;
+  font-weight: 700;
+  margin:20px 0px;
+  color:#fff;
+}
+.resume-card>.card-body{
+  color:#fff;
+  background:#282c34;
+  padding:15px 30px;
+  border-radius: 10px;
+  p,h3,h4{
+    background-color: #282c34;
+    margin:18px 0px;
+  };
+  h3{
+    color:#f8b90a;
+  };
+  P{
+    color:silver
+  }
+}
+.service-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-box {
+  flex: 1;
+  margin: 15px; 
+  padding: 30px;
+  background: #282c34;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+}
+.service-box:hover{
+  background:#f8b90a;
+  color:#000;
+}
+.service-box:hover .custom-icon {
+  color: #000; 
+  background-color: #f8b90a;
+}
+.custom-icon{
+  color:#f8b90a;
+  font-size: 70px;
+  margin-bottom:30px;
+  text-align: center;
+  background-color: #282c34;
+}
+.progress-bar{
+  background-color: #f8b90a!important;
+  color: #000 !important;
+}
+.skills{
+  color:#fff;
+}
