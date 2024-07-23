@@ -10,7 +10,7 @@ function Project() {
     return (
         <div className='project-section py-5'>
             <div classname="row">
-                <div className='resume-heading'>Our Projects</div>
+                <h1 className='heading'>Our Projects</h1>
                 <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
             <div className="row mb-3">
@@ -26,7 +26,7 @@ function Project() {
                 </div>
                 <div className="col-sm-8">
                 <div className="project-box">
-                        <div className="image-container">
+                        <div className="image-container image-container-odd">
                             <img src={img8} alt="Project" className="project-image" />
                             <div className="overlay">
                                 <div className="overlay-text">Your Text Here</div>
@@ -39,7 +39,7 @@ function Project() {
             <div className="row mb-4">
                 <div className="col-sm-8">
                 <div className="project-box">
-                        <div className="image-container">
+                        <div className="image-container image-container-odd">
                             <img src={img7} alt="Project" className="project-image" />
                             <div className="overlay">
                                 <div className="overlay-text">Your Text Here</div>
@@ -72,7 +72,7 @@ function Project() {
                 </div>
                 <div className="col-sm-8">
                 <div className="project-box">
-                        <div className="image-container">
+                        <div className="image-container image-container-odd">
                             <img src={img6} alt="Project" className="project-image" />
                             <div className="overlay">
                                 <div className="overlay-text">Your Text Here</div>
