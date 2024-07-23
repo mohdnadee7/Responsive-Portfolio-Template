@@ -179,10 +179,62 @@
   text-align: center;
   background-color: #282c34;
 }
+.progress{
+  border-radius: 2px!important;
+  height: 10px !important;;
+}
 .progress-bar{
   background-color: #f8b90a!important;
   color: #000 !important;
+  transition: width 2s ease-in-out;
 }
-.skills{
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills,.skills-percentage{
+  margin-top: 10px;
   color:#fff;
+}
+
+.project-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(248, 185, 10,0.8); 
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Smooth transition */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  background: none; 
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
 }
