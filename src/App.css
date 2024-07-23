@@ -110,9 +110,8 @@
 }
 .about-table td{
   color:silver;
-  font-size: 17px;
 }
-.download-dv-btn{
+.download-cv-btn{
   padding: 15px 25px;
   text-decoration: none;
   border-radius: 40px;
@@ -121,18 +120,45 @@
   color: #000;
 }
 
-@media screen and (min-width: 720px) {
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .row>*{
+    width: 100% !important;
+  }
+  .carousel-hire-btn,.carousel-work-btn{
+    bottom: 5px; 
+    padding: 5px 10px;
+    font-size: 10px; 
+  }
+  .carousel-hire-btn {
+    left: 10%;
+  }
+  .carousel-work-btn{
+    left: 35%;
+  }
   .about-profile{
-    display: none;
+    display:none;
+  }
+  .about-table {
+    font-size: 15px;
+  }
+  .download-cv-btn{
+    padding: 10px 20px;
+  }
+  .image-container-odd{
+    display :none;
+  }
+  .service-box {
+    margin-bottom:20px;
   }
 }
-
-.resume-heading{
+.heading{
   text-align: center;
-  font-size:50px;
-  font-weight: 700;
-  margin:20px 0px;
   color:#fff;
+  margin:20px 0px;
 }
 .resume-card>.card-body{
   color:#fff;
@@ -150,19 +176,12 @@
     color:silver
   }
 }
-.service-container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .service-box {
-  flex: 1;
-  margin: 15px; 
   padding: 30px;
   background: #282c34;
   text-align: center;
   color: #fff;
-  box-sizing: border-box;
+  width: 31%!important;
 }
 .service-box:hover{
   background:#f8b90a;
