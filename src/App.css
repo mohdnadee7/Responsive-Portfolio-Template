@@ -2,45 +2,6 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background: #212121;
 }
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .navbar-nav{
   margin:0px auto;
 }
@@ -125,19 +86,16 @@
   [class*="col-"] {
     width: 100%;
   }
-  .row>*{
-    width: 100% !important;
-  }
   .carousel-hire-btn,.carousel-work-btn{
-    bottom: 5px; 
-    padding: 5px 10px;
+    bottom: 7px; 
+    padding: 7px 12px;
     font-size: 10px; 
   }
   .carousel-hire-btn {
-    left: 10%;
+    left: 9.5%;
   }
   .carousel-work-btn{
-    left: 35%;
+    left: 33%;
   }
   .about-profile{
     display:none;
@@ -154,6 +112,7 @@
   .service-box {
     margin-bottom:20px;
   }
+  
 }
 .heading{
   text-align: center;
@@ -175,21 +134,31 @@
   P{
     color:silver
   }
+  .freelancing-section{
+    height:300px;
+  }
+  .overlay-background{
+    height:300px;
+    h1{
+      margin-top:100px!important;
+    }
+  }
 }
 .service-box {
   padding: 30px;
   background: #282c34;
   text-align: center;
   color: #fff;
-  width: 31%!important;
 }
 .service-box:hover{
   background:#f8b90a;
   color:#000;
+  transition:  0.5s ease;
 }
 .service-box:hover .custom-icon {
-  color: #000; 
+  color:#fff;
   background-color: #f8b90a;
+  transition: 0.5s ease;
 }
 .custom-icon{
   color:#f8b90a;
@@ -241,7 +210,7 @@
   bottom: 0;
   background: rgb(248, 185, 10,0.8); 
   opacity: 0;
-  transition: opacity 0.3s ease; /* Smooth transition */
+  transition: opacity 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,3 +226,40 @@
 .image-container:hover .overlay {
   opacity: 1;
 }
+
+.freelancing-section{
+  background-image: url('./images/5.jpg');
+  height: 400px;
+  background-size: cover;
+  h1,p{
+    color:#fff;
+    background:none;
+    text-align: center;
+  }
+}
+.overlay-background{
+  height: 400px;
+  background: rgb(0, 0, 0,0.6);
+}
+.contact-box{
+  color:#fff;
+text-align: center;
+}
+.contact-icon{
+  height: 60px;
+  width:60px;
+  border-radius:50%;
+  background:#282c34;
+  color:#f8b90a;
+  padding:30px;
+}
+
+
+.footer-text{
+  font-size: 17px;
+  color:silver;
+  text-align: center;
+  padding-bottom:20px;
+ 
+}
+

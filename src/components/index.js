@@ -5,6 +5,8 @@ import Resume from './resume';
 import Service from './service';
 import Skills from './skills';
 import Project from './project';
+import Footer from './footer';
+import Contact from './contact'
 function Index() {
     return (
         <>
@@ -16,6 +18,8 @@ function Index() {
             <Service />
             <Skills />
             <Project/>
+            <Contact/>
+            <Footer/>
             </div>
         </>
     );
