@@ -7,78 +7,108 @@ function Skills() {
             </div>
             <div className="row mb-3">
                 <div className="col">
-                <h5 className="skills">C# .NET CORE</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">C# .NET CORE</h6>
+                        <h6 className="skills-percentage">75%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "75%"}}></div>
+                        <div class="progress-bar" style={{ width: "75%" }}></div>
                     </div>
                 </div>
                 <div className="col">
-                <h5 className="skills">REACT</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">SQL SERVER</h6>
+                        <h6 className="skills-percentage">65%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "75%"}}></div>
+                        <div class="progress-bar" style={{ width: "65%" }}></div>
                     </div>
                 </div>
-                
+
             </div>
             <div className="row mb-3">
                 <div className="col">
-                <h5 className="skills">HTML</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">HTML</h6>
+                        <h6 className="skills-percentage">70%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "70%"}}></div>
+                        <div class="progress-bar" style={{ width: "70%" }}></div>
                     </div>
                 </div>
                 <div className="col">
-                <h5 className="skills">CSS</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">CSS</h6>
+                        <h6 className="skills-percentage">85%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "65%"}}>75%</div>
+                        <div class="progress-bar" style={{ width: "65%" }}></div>
                     </div>
                 </div>
-                
+
             </div>
             <div className="row mb-3">
                 <div className="col">
-                <h5 className="skills">.NET API</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">JAVASCRIPT</h6>
+                        <h6 className="skills-percentage">85%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "85%"}}></div>
+                        <div class="progress-bar" style={{ width: "85%" }}></div>
                     </div>
                 </div>
                 <div className="col">
-                <h5 className="skills">SQL SERVER</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">JQUERY</h6>
+                        <h6 className="skills-percentage">70%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "70%"}}></div>
+                        <div class="progress-bar" style={{ width: "70%" }}></div>
                     </div>
                 </div>
-                
+
             </div>
             <div className="row mb-3">
                 <div className="col">
-                <h5 className="skills">BOOTSTRAP</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">BOOTSTRAP</h6>
+                        <h6 className="skills-percentage">75%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "75%"}}></div>
+                        <div class="progress-bar" style={{ width: "75%" }}></div>
                     </div>
                 </div>
                 <div className="col">
-                <h5 className="skills">JAVASCRIPT</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">AMAZONE S3</h6>
+                        <h6 className="skills-percentage">75%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "75%"}}></div>
+                        <div class="progress-bar" style={{ width: "75%" }}></div>
                     </div>
                 </div>
-                
+
             </div>
             <div className="row mb-3">
                 <div className="col">
-                <h5 className="skills">JQUERY</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">REACT</h6>
+                        <h6 className="skills-percentage">75%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "75%"}}></div>
+                        <div class="progress-bar" style={{ width: "75%" }}></div>
                     </div>
                 </div>
                 <div className="col">
-                <h5 className="skills">SASS</h5> 
+                    <div className="skills-container">
+                        <h6 className="skills">WEB API</h6>
+                        <h6 className="skills-percentage">50%</h6>
+                    </div>
                     <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style={{width: "50%"}}></div>
+                        <div class="progress-bar" style={{ width: "50%" }}></div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     );
