@@ -1,7 +1,7 @@
 import profile from '../images/image.png';
 function About() {
     return (
-        <div className='about-me py-3'>
+        <div className='about-me py-3' id='about-section'>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card border-0 ">

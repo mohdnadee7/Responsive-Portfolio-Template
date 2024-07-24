@@ -1,6 +1,6 @@
 function Skills() {
     return (
-        <div className='skill-section py-5'>
+        <div className='py-5' id='skill-section'>
             <div classname="row">
                 <h1 className='heading'>My Skills</h1>
                 <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>

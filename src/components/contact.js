@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAddressCard, faContactCard, faVoicemail, faGlobe } from '@fortawesome/free-solid-svg-icons';
 function Contact() {
     return (
-        <div className='contact-section pt-5'>
+        <div className='pt-5' id='contact-section'>
             <div className="row freelancing-section">
                 <div className='overlay-background'>
                     <h1 style={{ marginTop: "150px" }}>I'm <span style={{ color: "#f8b90a", background: "none" }}>Available </span> for freelancing</h1>

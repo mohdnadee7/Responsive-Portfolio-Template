@@ -6,7 +6,7 @@ import img7 from '../images/7.jpg';
 import img8 from '../images/8.jpg';
 function Project() {
     return (
-        <div className='project-section py-5'>
+        <div className='py-5' id='project-section'>
             <div classname="row">
                 <h1 className='heading'>Our Projects</h1>
                 <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>

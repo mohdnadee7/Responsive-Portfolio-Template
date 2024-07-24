@@ -2,6 +2,14 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background: #212121;
 }
+.navbar-toggler{
+  color:#fff!important;
+  border-radius: 2px!important;
+  border:0px !important;
+}
+.navbar-toggler-icon{
+  color: #fff !important;
+}
 .navbar-nav{
   margin:0px auto;
 }
@@ -42,6 +50,7 @@
   left: 5%;
   background-color:#f8b90a; 
   color: #000;
+  border: 1px solid #f8b90a;
 }
 .carousel-work-btn{
   left: 15%;
@@ -244,6 +253,7 @@
 .contact-box{
   color:#fff;
 text-align: center;
+margin-bottom:20px;
 }
 .contact-icon{
   height: 60px;
