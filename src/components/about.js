@@ -41,7 +41,7 @@ function About() {
                                     <td> <a href="tel:+91-8924957027"className='text-decoration-none'style={{color:'silver'}}>+91-8924957027</a></td>
                                 </tr>
                             </table>
-                            <p style={{ marginTop: "10px", fontSize: "20px" }}><span style={{ color: "#f8b90a" }}>20</span> Projects complete</p>
+                            <p style={{ marginTop: "10px", fontSize: "20px" }}><span style={{ color: "#f8b90a" }}>30</span> Projects complete</p>
                             <a href="" className='download-cv-btn'>DOWNLOAD CV</a>
                         </div>
                     </div>
