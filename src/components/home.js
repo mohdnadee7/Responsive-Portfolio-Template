@@ -19,13 +19,13 @@ function Home() {
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="3000">
                         <img src={slid1} className="d-block w-100" alt="Slide 1" />
-                        <a href="" className='carousel-hire-btn'>HIRE ME</a>
-                        <a href="" className='carousel-work-btn'>MY WORKS</a>
+                        <a href="#service-section" className='carousel-hire-btn'>HIRE ME</a>
+                        <a href="#skill-section" className='carousel-work-btn'>MY WORKS</a>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
                         <img src={slid2} className="d-block w-100" alt="Slide 2" />
-                        <a href="" className='carousel-hire-btn'>HIRE ME</a>
-                        <a href="" className='carousel-work-btn'>MY WORKS</a>
+                        <a href="#service-section" className='carousel-hire-btn'>HIRE ME</a>
+                        <a href="#skill-section" className='carousel-work-btn'>MY WORKS</a>
                     </div>
                 </div>
             </div>

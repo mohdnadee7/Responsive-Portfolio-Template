@@ -1,24 +1,27 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAddressCard, faContactCard, faVoicemail, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelopeOpen, faLink, faLocationDot} from '@fortawesome/free-solid-svg-icons';
 function Contact() {
     return (
         <div className='pt-5' id='contact-section'>
             <div className="row freelancing-section">
                 <div className='overlay-background'>
                     <h1 style={{ marginTop: "150px" }}>I'm <span style={{ color: "#f8b90a", background: "none" }}>Available </span> for freelancing</h1>
-                    <p>A small river named Duden flows by their place and supplies it with <br />the necessary regelialia.</p>
+                    <p>I'm open for freelance opportunities and ready to bring your projects to life. With expertise in API development, web app development, and web design, I offer high-quality solutions tailored to your needs. Let's collaborate to achieve your goals!</p>
                 </div>
 
             </div>
             <div classname="row">
                 <h1 className='heading'>Contact Me</h1>
-                <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia. <br />It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>I'm here to help with your projects and answer any questions you might have. Feel free to reach out to discuss your requirements or get a quote. Let's connect and make your ideas a reality.</p>
             </div>
             <div className='row'>
-                <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faAddressCard} className=" contact-icon" /><p> ADDRESS</p><p>198 West 21th Street, Suite 721 New York NY 10016</p></div>
-                <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faContactCard} className=" contact-icon" /><p> CONTACT NUMBER</p><p>+91-8924957027</p></div>
-                <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faVoicemail} className="contact-icon" /><p> EMAIL ADDRESS</p><p>nadeem@gmail.com</p></div>
-                <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faGlobe} className="contact-icon" /><p> WEBSITE</p><p>www.mywebsite.com</p></div>
+                <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faLocationDot} className=" contact-icon" /><p> ADDRESS</p><p>Alinagarh Azmatgarh 276124 , Azamgarh </p></div>
+                <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faPhone} className=" contact-icon" /><p> CONTACT NUMBER</p><p>
+                <a href="tel:+918924957027"className='text-light text-decoration-none'>+91-8924957027</a></p></div>
+                <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faEnvelopeOpen} className="contact-icon" /><p> EMAIL ADDRESS</p><p>
+                <a href="mailto:mohammadnadeem9825@gmail.com"className='text-light text-decoration-none'>mohammadnadeem9825@gmail.com</a></p></div>
+                <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faLink} className="contact-icon" /><p> WEBSITE</p><p>
+                    <a href="https://trend-keys.vercel.app/" className='text-light text-decoration-none'>www.trending-key.com </a></p></div>
             </div>
         </div>
 

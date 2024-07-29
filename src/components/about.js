@@ -34,11 +34,11 @@ function About() {
                                 </tr>
                                 <tr>
                                     <th>Email:</th>
-                                    <td>mohammadnadeem9825@gmail.com</td>
+                                    <td> <a href="mailto:mohammadnadeem9825@gmail.com"className='text-decoration-none'style={{color:'silver'}}>mohammadnadeem9825@gmail.com</a></td>
                                 </tr>
                                 <tr>
                                     <th>Phone:</th>
-                                    <td>+91-8924957027</td>
+                                    <td> <a href="tel:+91-8924957027"className='text-decoration-none'style={{color:'silver'}}>+91-8924957027</a></td>
                                 </tr>
                             </table>
                             <p style={{ marginTop: "10px", fontSize: "20px" }}><span style={{ color: "#f8b90a" }}>20</span> Projects complete</p>
