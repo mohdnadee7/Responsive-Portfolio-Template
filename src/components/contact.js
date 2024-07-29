@@ -19,9 +19,9 @@ function Contact() {
                 <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faPhone} className=" contact-icon" /><p> CONTACT NUMBER</p><p>
                 <a href="tel:+918924957027"className='text-light text-decoration-none'>+91-8924957027</a></p></div>
                 <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faEnvelopeOpen} className="contact-icon" /><p> EMAIL ADDRESS</p><p>
-                <a href="mailto:mohammadnadeem9825@gmail.com"className='text-light text-decoration-none'>mohammadnadeem9825@gmail.com</a></p></div>
+                <a href="mailto:mohammadnadeem9825@gmail.com" target="_blank" className='text-light text-decoration-none'>mohammadnadeem9825@gmail.com</a></p></div>
                 <div className="col-sm-3 contact-box"> <FontAwesomeIcon icon={faLink} className="contact-icon" /><p> WEBSITE</p><p>
-                    <a href="https://trend-keys.vercel.app/" className='text-light text-decoration-none'>www.trending-key.com </a></p></div>
+                    <a href="https://trend-keys.vercel.app/" target="_blank"className='text-light text-decoration-none'>www.trending-key.com </a></p></div>
             </div>
         </div>
 

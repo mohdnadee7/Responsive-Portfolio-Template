@@ -34,7 +34,7 @@ function About() {
                                 </tr>
                                 <tr>
                                     <th>Email:</th>
-                                    <td> <a href="mailto:mohammadnadeem9825@gmail.com"className='text-decoration-none'style={{color:'silver'}}>mohammadnadeem9825@gmail.com</a></td>
+                                    <td> <a href="mailto:mohammadnadeem9825@gmail.com" target="_blank" className='text-decoration-none'style={{color:'silver'}}>mohammadnadeem9825@gmail.com</a></td>
                                 </tr>
                                 <tr>
                                     <th>Phone:</th>
