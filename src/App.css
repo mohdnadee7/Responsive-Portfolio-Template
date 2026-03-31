@@ -327,14 +327,14 @@
 }
 .contact-box{
   color:#fff;
-text-align: center;
-margin-bottom:20px;
+  text-align: center;
+  margin-bottom:20px;
 }
 .contact-icon>p>a{
   text-decoration: none;
   color:#fff;
-
 }
+
 .contact-icon{
   height: 60px;
   width:60px;
@@ -344,13 +344,11 @@ margin-bottom:20px;
   padding:30px;
 }
 
-
 .footer-text{
   font-size: 17px;
   color:silver;
   text-align: center;
   padding-bottom:20px;
- 
 }
 
 .heading::after {
