@@ -63,7 +63,7 @@ function Project() {
                         <div className="image-container">
                             <img src={img3} alt="Project" className="project-image" />
                             <div className="overlay">
-                                <div className="overlay-text">Transact365<br/> <a href='https://transact365.io/' className='text-white bg-transparent lead'>Click Here</a></div>
+                                <div className="overlay-text">Tutexx.com<br/> <a href='https://tutexx.com/' className='text-white bg-transparent lead'>Click Here</a></div>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ function Project() {
                         <div className="image-container image-container-odd">
                             <img src={img6} alt="Project" className="project-image" />
                             <div className="overlay">
-                                <div className="overlay-text">Transact365<br/> <a href='https://transact365.io/' className='text-white bg-transparent lead'>Click Here</a></div>
+                                <div className="overlay-text">Velatec.in<br/> <a href='https://velatec.in/' className='text-white bg-transparent lead'>Click Here</a></div>
                             </div>
                         </div>
                     </div>

@@ -152,6 +152,27 @@ function Skills() {
                 </div>
 
             </div>
+             <div className="row mb-3">
+                <div className="col">
+                    <div className="skills-container">
+                        <h6 className="skills">REACT NATIVE</h6>
+                        <h6 className="skills-percentage">60%</h6>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style={{ width: "60%" }}></div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="skills-container">
+                        <h6 className="skills">IIS SERVER</h6>
+                        <h6 className="skills-percentage">95%</h6>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style={{ width: "95%" }}></div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     );
 }

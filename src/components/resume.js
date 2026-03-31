@@ -2,9 +2,11 @@ function Resume(){
     return (
         <div id='resume-section'>
                     <div classname="row">
-                        <h1 className='heading'>Resume</h1>
-                        <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>I have a strong foundation in software development and have worked as a full stack developer. I have expertise in web development and programming, and have contributed to various projects.</p>
-                        <div class="row">
+                        <div className='row mt-4'>
+                               <h1 className='heading'>Education</h1>
+                               <p className='text-center'style={{ color: "silver", padding: "0px 20px" }}>
+                                I have completed my B.Tech degree in Computer Science, along with a Diploma in the same field, building a strong academic foundation in software development.
+                               </p>
                             <div class="col-sm-6 mb-4">
                                 <div class="card resume-card border-0 bg-dark">
                                     <div class="card-body">
@@ -28,11 +30,31 @@ function Resume(){
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mt-4">
+                               <h1 className='heading'>Work Experience</h1>
+                                 <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>
+                                    I have a strong foundation in software development and have worked as a full stack developer.
+                                    I possess hands-on experience in technologies like React, React Native, .NET Core, Node.js, and MongoDB through real-world projects. I am passionate about creating efficient, user-friendly applications and continuously enhancing my skills to stay aligned with industry trends.
+                                     </p>
+                      
                             <div class="col-sm-6 mb-4">
                                 <div class="card resume-card border-0 bg-dark">
                                     <div class="card-body">
-                                    <h3 className='card-title'>2023-Present</h3>
+                                    <h3 className='card-title'>July 2025 - Present</h3>
+                                        <h4 class="card-title">Software Developer</h4>
+                                        <p>Corealpha IT Solutions</p>
+                                        <p class="card-text">
+                                           Handled end-to-end application ownership, including frontend development, backend logic, database design, server configuration, deployment, and production support.
+                                            </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="col-sm-6 mb-4">
+                                <div class="card resume-card border-0 bg-dark">
+                                    <div class="card-body">
+                                    <h3 className='card-title'>January 2023 - February 2025</h3>
                                         <h4 class="card-title">Full Stack Developer</h4>
                                         <p>DiziCore Softwares</p>
                                         <p class="card-text">Full Stack .NET Software Developer specializing in scalable web applications, RESTful APIs, database management, front-end interfaces, code quality, and Agile collaboration.</p>
@@ -40,10 +62,11 @@ function Resume(){
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-sm-6 mb-4">
                                 <div class="card resume-card border-0 bg-dark">
                                 <div class="card-body">
-                                    <h3 className='card-title'>2022-2022</h3>
+                                    <h3 className='card-title'>March 2022 - December 2022</h3>
                                         <h4 class="card-title">Full Stack Developer</h4>
                                         <p>Creatick Solutions</p>
                                         <p class="card-text">Skilled .NET Software Developer specializing in web applications, RESTful APIs, front-end interfaces, code quality, and database management.</p>
@@ -51,15 +74,17 @@ function Resume(){
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
+                      
                             <div class="col-sm-6 mb-4">
                                 <div class="card resume-card border-0 bg-dark">
                                     <div class="card-body">
-                                    <h3 className='card-title'>2021-2022</h3>
+                                    <h3 className='card-title'>July 2021 - February 2022</h3>
                                         <h4 class="card-title">Intern </h4>
-                                        <p>Techpile Technology PVT LTD.</p>
-                                        <p class="card-text">Interned as a .NET Developer, gaining experience in frontend and backend development to create responsive web applications.</p>
+                                        <p>Techpile Technology PVT. LTD.</p>
+                                        <p class="card-text">Interned as a .NET Developer, gaining experience in frontend and backend development to create responsive web applications.
+
+                                            <br/><br/>
+                                        </p>
                                         
                                     </div>
                                 </div>
@@ -67,9 +92,9 @@ function Resume(){
                             <div class="col-sm-6 mb-4">
                                 <div class="card resume-card border-0 bg-dark">
                                 <div class="card-body">
-                                    <h3 className='card-title'>2020</h3>
+                                    <h3 className='card-title'>July 2018</h3>
                                         <h4 class="card-title">Best performance award using Django</h4>
-                                        <p>Techpile Technology PVT LTD. </p>
+                                        <p>Techpile Technology PVT. LTD. </p>
                                         <p class="card-text">Recipient of an award in Python Django for excellence in web development. Recognized for outstanding contributions and innovative solutions in the field.</p>
                                         
                                     </div>

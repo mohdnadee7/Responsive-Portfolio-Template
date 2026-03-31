@@ -120,9 +120,7 @@
   .image-container-odd{
     display :none;
   }
-  .service-box {
-    margin-bottom:20px;
-  }
+ 
   .navbar-collapse{
     position: fixed;
     top: 0;
@@ -157,11 +155,17 @@
   color:#fff;
   margin:20px 0px;
 }
+.resume-card:hover{
+  transform: translateY(-7px) scale(1.03);
+  background: #111;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
 .resume-card>.card-body{
   color:#fff;
   background:#282c34;
   padding:15px 30px;
   border-radius: 10px;
+   box-shadow: 0 8px 25px rgba(0,0,0,0.4);
   p,h3,h4{
     background-color: #282c34;
     margin:18px 0px;
@@ -183,29 +187,71 @@
   }
 }
 .service-box {
-  padding: 30px;
-  background: #282c34;
+  margin-bottom: 25px;
+  padding: 35px 20px;
+  border-radius: 15px;
   text-align: center;
   color: #fff;
+  background: linear-gradient(145deg, #282c34, #282c34);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
 }
-.service-box:hover{
-  background:#f8b90a;
-  color:#000;
-  transition:  0.5s ease;
+
+/* Glow border effect */
+.service-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 15px;
+  padding: 2px;
+  background: linear-gradient(45deg, #f8b90a, #00e5ff, #f8b90a);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  opacity: 0;
+  transition: 0.4s;
 }
+
+/* Hover effect */
+.service-box:hover {
+  transform: translateY(-10px) scale(1.03);
+  background: #111;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+.service-box:hover::before {
+  opacity: 1;
+}
+
+/* Icon styling */
+.custom-icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #f8b90a;
+  transition: 0.4s;
+    background: none;
+}
+
+/* Text */
+.service-box h5 {
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+    background: none;
+}
+
+/* Icon animation on hover */
 .service-box:hover .custom-icon {
-  color:#fff;
-  background-color: #f8b90a;
-  transition: 0.5s ease;
+  color: #00e5ff;
+  transform: rotateY(180deg) scale(1.2);
 }
-.custom-icon{
-  color:#f8b90a;
-  font-size: 70px;
-  margin-bottom:30px;
-  text-align: center;
-  background-color: #282c34;
-}
-.progress{
+
+/* Optional: subtle floating animation */
+.service-box:hover h5 {
+  color: #f8b90a;
+}.progress{
   border-radius: 2px!important;
   height: 10px !important;;
 }
@@ -307,3 +353,12 @@ margin-bottom:20px;
  
 }
 
+.heading::after {
+  content: "";
+  display: block;
+  width: 80px; /* border length */
+  height: 3px; /* thickness */
+  background-color: #f8b90a; /* color */
+  margin: 8px auto 0; /* center it */
+  border-radius: 2px;
+}
