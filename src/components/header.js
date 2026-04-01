@@ -8,7 +8,7 @@ function Header() {
   });
   const [crossToggle , setCrossToggle] = useState({areaExpand:'none', hederIcon:'none'});
   const navbarToggler=()=>{
-if(state.areaExpand=='true' && state.className =='show'){
+if(state.areaExpand==='true' && state.className ==='show'){
   setState({
     className: 'hide',
     areaExpand: 'false'
