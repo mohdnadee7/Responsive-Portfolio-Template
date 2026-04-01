@@ -40,7 +40,7 @@ function Project() {
                         <div className="image-container image-container-odd">
                             <img src={img7} alt="Project" className="project-image" />
                             <div className="overlay">
-                                <div className="overlay-text">Mtech online using classic ASP, This is Admin site.<br/> <a href='#' className='text-white bg-transparent lead'>Click Here</a></div>
+                                <div className="overlay-text">Mtech online using classic ASP, This is Admin site.<br/> <a href='' className='text-white bg-transparent lead'>Click Here</a></div>
                             </div>
                         </div>
                     </div>

@@ -40,7 +40,7 @@ else{
           <div className="mobile-cross-icon" onClick={navbarToggler} style={{display:crossToggle.areaExpand}}> <FontAwesomeIcon icon={faTimes} className="navbar-icon" /></div>
           <div class={`collapse navbar-collapse ${state.className}`}>
             <div class="navbar-nav">
-              <a class="nav-link custom-nav-link text-white" onClick={navbarIcons} href="#"><FontAwesomeIcon icon={faHome} style={{display:crossToggle.hederIcon}} className="navbar-icon" /> Home</a>
+              <a class="nav-link custom-nav-link text-white" onClick={navbarIcons} href=""><FontAwesomeIcon icon={faHome} style={{display:crossToggle.hederIcon}} className="navbar-icon" /> Home</a>
               <a class="nav-link custom-nav-link text-white" onClick={navbarIcons} href="#about-section"><FontAwesomeIcon  icon={faInfoCircle} style={{display:crossToggle.hederIcon}} className="navbar-icon" /> About</a>
               <a class="nav-link custom-nav-link text-white" onClick={navbarIcons} href="#resume-section"><FontAwesomeIcon icon={faIdCard} style={{display:crossToggle.hederIcon}} className="navbar-icon" /> Resume</a>
               <a class="nav-link custom-nav-link text-white" onClick={navbarIcons} href="#service-section"><FontAwesomeIcon icon={faCogs} style={{display:crossToggle.hederIcon}} className="navbar-icon" /> Services</a>
