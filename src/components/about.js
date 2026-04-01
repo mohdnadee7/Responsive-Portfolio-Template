@@ -2,11 +2,11 @@ import profile from '../images/image.png';
 function About() {
     return (
         <div className='about-me py-3' id='about-section'>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card border-0 ">
-                        <div class="card-body about-profile">
-                            <img src={profile} style={{ height: "100%", width: "100%" }} />
+            <div className="row">
+                <div className="col-sm-6">
+                    <div className="card border-0 ">
+                        <div className="card-body about-profile">
+                            <img src={profile}   alt="Mohammad Nadeem Ansari Profile" style={{ height: "100%", width: "100%" }} />
                         </div>
                     </div>
                 </div>
@@ -53,8 +53,7 @@ function About() {
               <a
                 href="tel:+918924957027"
                 className="text-decoration-none"
-                style={{ color: "silver" }}
-              >
+                style={{ color: "silver" }}>
                 +91-8924957027
               </a>
             </td>

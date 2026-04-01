@@ -9,7 +9,7 @@ import { faCode,
 function Service() {
     return (
         <div className='py-5'id='service-section'>
-            <div classname="row">
+            <div className="row">
                 <h1 className='heading'>Services</h1>
                 <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>I offer API development, web app development, and web design. I have expertise in delivering high-quality solutions in these areas.</p>
             </div>

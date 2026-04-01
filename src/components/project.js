@@ -7,7 +7,7 @@ import img8 from '../images/8.jpg';
 function Project() {
     return (
         <div className='py-5' id='project-section'>
-            <div classname="row">
+            <div className="row">
                 <h1 className='heading'>Our Projects</h1>
                 <p className='text-center' style={{ color: "silver", padding: "0px 20px" }}>Explore the projects I've had the privilege of working on: I've been involved in several UK-based projects, showcasing my skills and expertise. Check out some of these projects through the links below.</p>
             </div>
@@ -40,7 +40,7 @@ function Project() {
                         <div className="image-container image-container-odd">
                             <img src={img7} alt="Project" className="project-image" />
                             <div className="overlay">
-                                <div className="overlay-text">Mtech online using classic ASP, This is Admin site.<br/> <a href='' className='text-white bg-transparent lead'>Click Here</a></div>
+                                <div className="overlay-text">Mtech online using classic ASP, This is Admin site.<br/> <a href='https://mtechonline.co.uk/' className='text-white bg-transparent lead'>Click Here</a></div>
                             </div>
                         </div>
                     </div>
