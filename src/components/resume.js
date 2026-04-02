@@ -1,7 +1,6 @@
 function Resume(){
     return (
-        <div id='resume-section'>
-                    <div className="row">
+        <div id='resume-section'>             
                         <div className='row mt-4'>
                                <h1 className='heading'>Education</h1>
                                <p className='text-center'style={{ color: "silver", padding: "0px 20px" }}>
@@ -102,7 +101,7 @@ function Resume(){
                             </div>
                         </div>
                     </div>
-                </div>
+                
     );
 }
 export default Resume;
